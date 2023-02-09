@@ -1,0 +1,24 @@
+---> Inicio de registro <---
+Ingresó el/la cliente Pedro a la tienda
+Ingresó el/la cliente Ambar a la tienda
+Ingresó el/la cliente Josue a la tienda
+La promoción de descuento de 5 esta disponible
+La promoción de descuento de 10 deja de estar disponible
+La promoción de descuento de 30 esta disponible
+El/la cliente Pedro compró el producto avion a Bs 100
+El/la cliente Ambar compró el producto peluche a Bs 40
+El/la cliente Josue compró el producto libro a Bs 25
+El/la cliente Josue no puede usar la promoción de -Bs10 ya que no esta disponible
+El/la cliente Pedro no puede usar la promoción de -Bs10 ya que no esta disponible
+El productoavion cambia de precio a Bs 1000
+El/la cliente Ambar se lleva el producto peluche gratis gracias a la promoción
+Se genera la factura 999999 para El/la cliente Pedro por el producto de un/a avion a Bs 1000
+Se genera la factura 67967312 para El/la cliente Josue por el producto de un/a libro a Bs 25
+Se genera la factura 34242 para El/la cliente Ambar por el producto de un/a peluche a Bs 40
+Se envió la factura al correo de el/la cliente Josue
+Se envió la factura al correo de el/la cliente Pedro
+Se envió la factura al correo de el/la cliente Ambar
+Se retira el/la cliente Pedro de la tienda
+Se retira el/la cliente Josue de la tienda
+Se retira el/la cliente Ambar de la tienda
+---> Fin de Registro <---
