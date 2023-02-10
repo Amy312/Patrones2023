@@ -29,5 +29,21 @@ public class AppMain {
         smartphone3.setAccesories(accesories3);
         smartphone3.showInfo();
 
+        System.out.println("4");
+
+        Accesory[] accesories4 = {new Accesory("leds"), new Accesory("teclado")};
+        Smartphone smartphone4 = smartphone1.clone();
+        smartphone4.setSim(new SIM("Entel", "228234239"));
+        smartphone4.setAccesories(accesories4);
+        smartphone4.showInfo();
+
+        System.out.println("5");
+
+        Accesory[] accesories5 = {new Accesory("lapiz")};
+        Smartphone smartphone5 = smartphone1.clone();
+        smartphone5.setSim(new SIM("Tigo", "2343123"));
+        smartphone5.setAccesories(accesories5);
+        smartphone5.showInfo();
+
     }
 }
