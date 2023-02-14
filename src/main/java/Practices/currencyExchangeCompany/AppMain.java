@@ -1,12 +1,10 @@
 package Practices.currencyExchangeCompany;
 
-import Practices.logger.Logger;
 
-import java.io.IOException;
 
 public class AppMain {
 
-    public static void main(String []args) throws InterruptedException, IOException {
+    public static void main(String []args) throws InterruptedException {
         Bank bank = new Bank();
         ExchangeFree exchangeFree = new ExchangeFree();
         ExchangeHouse exchangeHouse = new ExchangeHouse();
@@ -23,7 +21,7 @@ public class AppMain {
                 exchangeFree.exchangeBsToSus(70);
                 System.out.println();
                 bank.exchangeBsToSus(70);
-                exchangeHouse.exchangeSusToBs(10);
+                exchangeHouse.exchangeSusToEuro(10);
                 exchangeFree.exchangeEuroToBs(1);
                 System.out.println("Finalizaron las consultas 1\n");
 
@@ -37,7 +35,7 @@ public class AppMain {
 
                 bank.exchangeBsToSus(70);
                 exchangeHouse.exchangeBsToSus(70);
-                exchangeFree.exchangeBsToSus(140);
+                exchangeFree.exchangeEuroToSus(140);
                 System.out.println();
                 bank.exchangeBsToSus(70);
                 exchangeHouse.exchangeSusToBs(101);
@@ -54,7 +52,7 @@ public class AppMain {
 
                 bank.exchangeBsToSus(35);
                 exchangeHouse.exchangeBsToSus(14);
-                exchangeFree.exchangeBsToSus(45);
+                exchangeFree.exchangeEuroToSus(100);
                 System.out.println();
                 bank.exchangeBsToSus(67);
                 exchangeHouse.exchangeSusToBs(89);
