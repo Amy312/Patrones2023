@@ -11,8 +11,6 @@ public class AppMain {
         ChildTicket ch1 = new ChildTicketCreator().create();
         ChildTicket ch2 = new ChildTicketCreator().create();
 
-
-
         st1.changeData("María", "2454275ST", "14A");
         st2.changeData("Josue", "3224672LP", "15A");
 
@@ -30,12 +28,5 @@ public class AppMain {
 
         ch1.showTicket();
         ch2.showTicket();
-
-
-
-
-
-
-
     }
 }
