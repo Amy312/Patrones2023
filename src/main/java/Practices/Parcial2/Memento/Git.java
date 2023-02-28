@@ -4,7 +4,7 @@ public class Git { // originator
     private BaseDeDatos data;
 
     public void setData(BaseDeDatos data){
-        this.data = data;
+        this.data = new BaseDeDatos();
         this.data.setAlias(data.getAlias()).setData(data.getData());
     }
 
