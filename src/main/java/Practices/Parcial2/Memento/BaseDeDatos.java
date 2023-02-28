@@ -17,7 +17,8 @@ public class BaseDeDatos {//concrete
     }
 
     public BaseDeDatos setData(List<Persona> data) {
-        this.data = data;
+        this.data = new ArrayList<>();
+        this.data.addAll(data);
         return this;
     }
 

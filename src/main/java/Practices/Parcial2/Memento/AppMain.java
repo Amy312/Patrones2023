@@ -7,17 +7,15 @@ public class AppMain {
     public static void main(String[] args) throws Exception {
         GitHub github = new GitHub();
         Git git = new Git();
-
         List<Persona> dataPersonas = new ArrayList<>();
-
         BaseDeDatos data = new BaseDeDatos();
+
 
         dataPersonas.add(new Persona("Amy", "6849171", 18));
         dataPersonas.add(new Persona("Bmy", "6849172", 18));
         dataPersonas.add(new Persona("Cmy", "6849173", 18));
         dataPersonas.add(new Persona("Dmy", "6849174", 18));
         dataPersonas.add(new Persona("Emy", "6849175", 18));
-
         data.setAlias("BackupEnero").setData(dataPersonas);
         git.setData(data);
         github.createBackup("BackupEnero",git.createBackup());
@@ -28,6 +26,10 @@ public class AppMain {
         dataPersonas.add(new Persona("Imy", "4849174", 17));
         dataPersonas.add(new Persona("Jmy", "5849175", 17));
         data.setAlias("BackupFebrero").setData(dataPersonas);
+        git.setData(data);
+        github.createBackup("BackupFebrero",git.createBackup());
+
+
 
         git.setData(data);
         github.createBackup("BackupFebrero",git.createBackup());
