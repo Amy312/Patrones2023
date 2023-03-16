@@ -11,7 +11,6 @@ public class OrdCarrera implements IStrategy{
         for(Estudiante i: estudiantes){
             carreras.add(i.getCarrera());
         }
-
         carreras.stream().sorted().forEach(System.out::println);
     }
 }

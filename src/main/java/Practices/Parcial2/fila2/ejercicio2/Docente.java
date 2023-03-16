@@ -1,25 +1,16 @@
 package Practices.Parcial2.fila2.ejercicio2;
 
 public class Docente extends Persona{
-    private String ci;
-
-    public Docente(ICanal canal, String ci) {
+    public Docente(ICanal canal) {
         super(canal);
-        this.ci = ci;
-        info = "doc";
+        setTipo("doc");
     }
 
-    public String getCi() {
-        return ci;
-    }
 
-    public void setCi(String ci) {
-        this.ci = ci;
-    }
 
     @Override
-    public void send(String msg) {
-        this.canal.send(msg, this);
+    public void send(String msg, boolean todos) {
+        this.canal.send(msg, this,todos );
     }
 
     @Override
